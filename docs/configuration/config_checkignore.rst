@@ -12,12 +12,16 @@ Follow the following examples, to exclude files and/or folders:
 
 .. code-block:: text
 
+  # Ignore folder content
   test/*
   unittest/*
   my/subfolder/*
+  
+  # Ignore files
   demo.py
   test/demo.py
+  
+  # Ingore file in all folders
   **/test.py
   
-.. warning:: Please do not add comments ('# ...') to your .checkignore file for now.
 
